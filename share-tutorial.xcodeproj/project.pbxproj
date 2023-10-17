@@ -12,6 +12,10 @@
 		657D5ABD2ADDEF3F00A709E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D5ABC2ADDEF3F00A709E4 /* ViewController.swift */; };
 		657D5AC22ADDEF4100A709E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657D5AC12ADDEF4100A709E4 /* Assets.xcassets */; };
 		657D5AC52ADDEF4100A709E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657D5AC32ADDEF4100A709E4 /* LaunchScreen.storyboard */; };
+		657D5ACD2ADE2F4000A709E4 /* ShareableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D5ACC2ADE2F4000A709E4 /* ShareableImage.swift */; };
+		657D5ACF2ADE2F5400A709E4 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D5ACE2ADE2F5400A709E4 /* UIImage+.swift */; };
+		657D5AD22ADE2FD600A709E4 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D5AD12ADE2FD600A709E4 /* UIViewController+.swift */; };
+		657D5AD62ADE303200A709E4 /* DKCustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657D5AD52ADE303200A709E4 /* DKCustomAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		657D5AC12ADDEF4100A709E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		657D5AC42ADDEF4100A709E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		657D5AC62ADDEF4100A709E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657D5ACC2ADE2F4000A709E4 /* ShareableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareableImage.swift; sourceTree = "<group>"; };
+		657D5ACE2ADE2F5400A709E4 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		657D5AD12ADE2FD600A709E4 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		657D5AD52ADE303200A709E4 /* DKCustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKCustomAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,50 @@
 		657D5AB72ADDEF3F00A709E4 /* share-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				657D5AD32ADE301900A709E4 /* View */,
+				657D5AD02ADE2F6F00A709E4 /* Helper */,
 				657D5AB82ADDEF3F00A709E4 /* AppDelegate.swift */,
 				657D5ABA2ADDEF3F00A709E4 /* SceneDelegate.swift */,
-				657D5ABC2ADDEF3F00A709E4 /* ViewController.swift */,
 				657D5AC12ADDEF4100A709E4 /* Assets.xcassets */,
 				657D5AC32ADDEF4100A709E4 /* LaunchScreen.storyboard */,
 				657D5AC62ADDEF4100A709E4 /* Info.plist */,
 			);
 			path = "share-tutorial";
+			sourceTree = "<group>";
+		};
+		657D5AD02ADE2F6F00A709E4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				657D5ACC2ADE2F4000A709E4 /* ShareableImage.swift */,
+				657D5ACE2ADE2F5400A709E4 /* UIImage+.swift */,
+				657D5AD12ADE2FD600A709E4 /* UIViewController+.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		657D5AD32ADE301900A709E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				657D5AD72ADE303C00A709E4 /* Controllers */,
+				657D5AD42ADE302100A709E4 /* DKCustomAlertViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		657D5AD42ADE302100A709E4 /* DKCustomAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				657D5AD52ADE303200A709E4 /* DKCustomAlertViewController.swift */,
+			);
+			path = DKCustomAlertViewController;
+			sourceTree = "<group>";
+		};
+		657D5AD72ADE303C00A709E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				657D5ABC2ADDEF3F00A709E4 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				657D5ABD2ADDEF3F00A709E4 /* ViewController.swift in Sources */,
+				657D5ACD2ADE2F4000A709E4 /* ShareableImage.swift in Sources */,
+				657D5AD62ADE303200A709E4 /* DKCustomAlertViewController.swift in Sources */,
+				657D5AD22ADE2FD600A709E4 /* UIViewController+.swift in Sources */,
+				657D5ACF2ADE2F5400A709E4 /* UIImage+.swift in Sources */,
 				657D5AB92ADDEF3F00A709E4 /* AppDelegate.swift in Sources */,
 				657D5ABB2ADDEF3F00A709E4 /* SceneDelegate.swift in Sources */,
 			);
