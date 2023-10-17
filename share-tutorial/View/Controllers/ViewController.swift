@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         
         activityVC.completionWithItemsHandler = { (activityHandler, completed, returnedItems, error) in
             if completed {
-                self.showAlert(titleMessage: "Success! 🥳", description: "QR Code was successfully shared.", buttonTitle: "Nice!") {
+                self.showAlert(titleMessage: "Success! 🥳", description: "Image was successfully shared.", buttonTitle: "Nice!") {
                     self.dismiss(animated: true)
                 }
             }
